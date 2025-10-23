@@ -1,4 +1,12 @@
-# BelegEchtzeitSystemeMobileRobotik
+# Belegarbeit im Modul Echtzeitsysteme und mobile Robotik (E 203)  
+
+| **Bearbeiter** | Philipp Nöcker |
+|:----------------|:----------------|
+| **Matrik.-Nr.** | 85980 |
+| **Seminargruppe** | 24EIM-AT |
+| **E-Mail** |  philipp.noecker@stud.htwk-leipzig.de |
+
+## Struktur des Abgaberepository
 ```
 .  
 ├── Echtzeitprogrammierung/                          # Programmieraufgaben und Makefile  
