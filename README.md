@@ -14,5 +14,7 @@
     └── Sonstige Dateien, wie aufgenommene Map, Link zum Video etc.  
 ```
 ## Demo Video der Beispielanwendung
+Mit der Bitte, die Aufnahmequalität, Geräusche und Kameraführung zu ignorieren. Das Beispielvideo soll nur dazu dienen einen schnellen Überblick über die entwickelte Beispielanwendung mit dem Turtlebot zu bekommen. 
+
 [![Demo Video](https://img.youtube.com/vi/pQ8vh0Bdb9k/0.jpg)](https://www.youtube.com/watch?v=pQ8vh0Bdb9k)
 
