@@ -1,0 +1,23 @@
+[2.299s] Invoking command in '/home/philnoc/ezmr_ws/src/phil_pkg': PYTHONPATH=/home/philnoc/ezmr_ws/build/phil_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/phil_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/phil_pkg build --build-base /home/philnoc/ezmr_ws/build/phil_pkg/build install --record /home/philnoc/ezmr_ws/build/phil_pkg/install.log --single-version-externally-managed install_data
+[2.692s] running egg_info
+[2.696s] writing ../../build/phil_pkg/phil_pkg.egg-info/PKG-INFO
+[2.698s] writing dependency_links to ../../build/phil_pkg/phil_pkg.egg-info/dependency_links.txt
+[2.699s] writing entry points to ../../build/phil_pkg/phil_pkg.egg-info/entry_points.txt
+[2.699s] writing requirements to ../../build/phil_pkg/phil_pkg.egg-info/requires.txt
+[2.699s] writing top-level names to ../../build/phil_pkg/phil_pkg.egg-info/top_level.txt
+[2.703s] reading manifest file '../../build/phil_pkg/phil_pkg.egg-info/SOURCES.txt'
+[2.704s] adding license file 'LICENSE'
+[2.709s] writing manifest file '../../build/phil_pkg/phil_pkg.egg-info/SOURCES.txt'
+[2.709s] running build
+[2.710s] running build_py
+[2.712s] running install
+[2.714s] running install_lib
+[2.716s] running install_data
+[2.717s] copying package.xml -> /home/philnoc/ezmr_ws/install/phil_pkg/share/phil_pkg
+[2.718s] running install_egg_info
+[2.722s] removing '/home/philnoc/ezmr_ws/install/phil_pkg/lib/python3.10/site-packages/phil_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.723s] Copying ../../build/phil_pkg/phil_pkg.egg-info to /home/philnoc/ezmr_ws/install/phil_pkg/lib/python3.10/site-packages/phil_pkg-0.0.0-py3.10.egg-info
+[2.724s] running install_scripts
+[2.760s] Installing HelloPhil script to /home/philnoc/ezmr_ws/install/phil_pkg/lib/phil_pkg
+[2.761s] writing list of installed files to '/home/philnoc/ezmr_ws/build/phil_pkg/install.log'
+[3.216s] Invoked command in '/home/philnoc/ezmr_ws/src/phil_pkg' returned '0': PYTHONPATH=/home/philnoc/ezmr_ws/build/phil_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/phil_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/phil_pkg build --build-base /home/philnoc/ezmr_ws/build/phil_pkg/build install --record /home/philnoc/ezmr_ws/build/phil_pkg/install.log --single-version-externally-managed install_data

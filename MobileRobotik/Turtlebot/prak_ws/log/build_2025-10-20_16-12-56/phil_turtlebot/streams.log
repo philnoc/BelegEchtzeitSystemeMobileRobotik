@@ -1,0 +1,26 @@
+[0.675s] Invoking command in '/home/leobots/Desktop/Phil_MB_prak/prak_ws/src/phil_turtlebot': PYTHONPATH=/home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/phil_turtlebot build --build-base /home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/build install --record /home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/install.log --single-version-externally-managed install_data
+[0.943s] running egg_info
+[0.943s] writing ../../build/phil_turtlebot/phil_turtlebot.egg-info/PKG-INFO
+[0.943s] writing dependency_links to ../../build/phil_turtlebot/phil_turtlebot.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../build/phil_turtlebot/phil_turtlebot.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../build/phil_turtlebot/phil_turtlebot.egg-info/requires.txt
+[0.944s] writing top-level names to ../../build/phil_turtlebot/phil_turtlebot.egg-info/top_level.txt
+[0.946s] reading manifest file '../../build/phil_turtlebot/phil_turtlebot.egg-info/SOURCES.txt'
+[0.946s] adding license file 'LICENSE'
+[0.947s] writing manifest file '../../build/phil_turtlebot/phil_turtlebot.egg-info/SOURCES.txt'
+[0.947s] running build
+[0.947s] running build_py
+[0.947s] copying phil_turtlebot/show_one_img.py -> /home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/build/lib/phil_turtlebot
+[0.948s] running install
+[0.948s] running install_lib
+[0.949s] copying /home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/build/lib/phil_turtlebot/show_one_img.py -> /home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot
+[0.949s] byte-compiling /home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/show_one_img.py to show_one_img.cpython-310.pyc
+[0.950s] running install_data
+[0.950s] running install_egg_info
+[0.952s] removing '/home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.952s] Copying ../../build/phil_turtlebot/phil_turtlebot.egg-info to /home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot-0.0.0-py3.10.egg-info
+[0.953s] running install_scripts
+[0.971s] Installing navmap script to /home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[0.972s] Installing oneIMG script to /home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[0.972s] writing list of installed files to '/home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/install.log'
+[0.995s] Invoked command in '/home/leobots/Desktop/Phil_MB_prak/prak_ws/src/phil_turtlebot' returned '0': PYTHONPATH=/home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leobots/Desktop/Phil_MB_prak/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/phil_turtlebot build --build-base /home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/build install --record /home/leobots/Desktop/Phil_MB_prak/prak_ws/build/phil_turtlebot/install.log --single-version-externally-managed install_data

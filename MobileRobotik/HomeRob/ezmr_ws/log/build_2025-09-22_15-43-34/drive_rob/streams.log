@@ -1,0 +1,38 @@
+[0.877s] Invoking command in '/home/philnoc/ezmr_ws/src/drive_rob': PYTHONPATH=/home/philnoc/ezmr_ws/build/drive_rob/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive_rob build --build-base /home/philnoc/ezmr_ws/build/drive_rob/build install --record /home/philnoc/ezmr_ws/build/drive_rob/install.log --single-version-externally-managed install_data
+[1.188s] running egg_info
+[1.189s] creating ../../build/drive_rob/drive_rob.egg-info
+[1.189s] writing ../../build/drive_rob/drive_rob.egg-info/PKG-INFO
+[1.190s] writing dependency_links to ../../build/drive_rob/drive_rob.egg-info/dependency_links.txt
+[1.190s] writing entry points to ../../build/drive_rob/drive_rob.egg-info/entry_points.txt
+[1.190s] writing requirements to ../../build/drive_rob/drive_rob.egg-info/requires.txt
+[1.190s] writing top-level names to ../../build/drive_rob/drive_rob.egg-info/top_level.txt
+[1.191s] writing manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+[1.193s] reading manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+[1.193s] adding license file 'LICENSE'
+[1.193s] writing manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+[1.193s] running build
+[1.193s] running build_py
+[1.194s] creating /home/philnoc/ezmr_ws/build/drive_rob/build
+[1.194s] creating /home/philnoc/ezmr_ws/build/drive_rob/build/lib
+[1.194s] creating /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob
+[1.194s] copying drive_rob/robot_heart.py -> /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob
+[1.194s] copying drive_rob/__init__.py -> /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob
+[1.194s] running install
+[1.195s] running install_lib
+[1.196s] creating /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob
+[1.196s] copying /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob/robot_heart.py -> /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob
+[1.196s] copying /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob/__init__.py -> /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob
+[1.196s] byte-compiling /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/robot_heart.py to robot_heart.cpython-310.pyc
+[1.197s] byte-compiling /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/__init__.py to __init__.cpython-310.pyc
+[1.197s] running install_data
+[1.198s] creating /home/philnoc/ezmr_ws/install/drive_rob/share/ament_index
+[1.198s] creating /home/philnoc/ezmr_ws/install/drive_rob/share/ament_index/resource_index
+[1.198s] creating /home/philnoc/ezmr_ws/install/drive_rob/share/ament_index/resource_index/packages
+[1.198s] copying resource/drive_rob -> /home/philnoc/ezmr_ws/install/drive_rob/share/ament_index/resource_index/packages
+[1.198s] copying package.xml -> /home/philnoc/ezmr_ws/install/drive_rob/share/drive_rob
+[1.198s] running install_egg_info
+[1.201s] Copying ../../build/drive_rob/drive_rob.egg-info to /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob-0.0.0-py3.10.egg-info
+[1.203s] running install_scripts
+[1.235s] Installing turtle_heart script to /home/philnoc/ezmr_ws/install/drive_rob/lib/drive_rob
+[1.237s] writing list of installed files to '/home/philnoc/ezmr_ws/build/drive_rob/install.log'
+[1.282s] Invoked command in '/home/philnoc/ezmr_ws/src/drive_rob' returned '0': PYTHONPATH=/home/philnoc/ezmr_ws/build/drive_rob/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive_rob build --build-base /home/philnoc/ezmr_ws/build/drive_rob/build install --record /home/philnoc/ezmr_ws/build/drive_rob/install.log --single-version-externally-managed install_data

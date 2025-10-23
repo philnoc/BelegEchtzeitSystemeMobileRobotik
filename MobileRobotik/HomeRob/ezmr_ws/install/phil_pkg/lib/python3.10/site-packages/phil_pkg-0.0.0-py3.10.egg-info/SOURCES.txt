@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/phil_pkg/phil_pkg.egg-info/PKG-INFO
+../../build/phil_pkg/phil_pkg.egg-info/SOURCES.txt
+../../build/phil_pkg/phil_pkg.egg-info/dependency_links.txt
+../../build/phil_pkg/phil_pkg.egg-info/entry_points.txt
+../../build/phil_pkg/phil_pkg.egg-info/requires.txt
+../../build/phil_pkg/phil_pkg.egg-info/top_level.txt
+../../build/phil_pkg/phil_pkg.egg-info/zip-safe
+phil_pkg/HelloPhil.py
+phil_pkg/__init__.py
+resource/phil_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

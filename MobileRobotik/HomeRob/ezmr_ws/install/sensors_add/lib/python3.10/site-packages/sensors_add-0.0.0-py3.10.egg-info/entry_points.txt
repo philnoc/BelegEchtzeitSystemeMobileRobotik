@@ -1,0 +1,4 @@
+[console_scripts]
+circle_warn = sensors_add.steal_warn:main
+ultra_display = sensors_add.ultra_disp:main
+

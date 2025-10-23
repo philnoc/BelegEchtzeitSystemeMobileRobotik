@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+import math
+import rclpy
+from rclpy.node import Node
+from rclpy.qos import qos_profile_sensor_data
+from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
+
+
+def yaw_from_quat(q):
+    """Extrahiere den Yaw-Winkel aus Quaternion."""
+    siny_cosp = 2.0 * (q.w * q.z + q.x * q.y)
+    cosy_cosp = 1.0 - 2.0 * (q.y * q.y + q.z * q.z)
+    return math.atan2(siny_cosp, cosy_cosp)
+
+
+class RotateByOdom(Node):
+    def __init__(self):
+        super().__init__('rotate_by_odom')
+
+        # Parameter
+        self.declare_parameter('cmd_vel_topic', '/cmd_vel')
+        self.declare_parameter('odom_topic', '/odom')
+        self.declare_parameter('angular_speed', -0.5)    # rad/s
+        self.declare_parameter('target_angle_deg', -45.0)
+
+        # Publ / Sub
+        self.cmd_pub = self.create_publisher(
+            Twist, self.get_parameter('cmd_vel_topic').value, 10)
+        self.odom_sub = self.create_subscription(
+            Odometry, self.get_parameter('odom_topic').value,
+            self.odom_cb, qos_profile_sensor_data)
+
+        # State
+        self.start_yaw = None
+        self.current_yaw = None
+        self.timer = self.create_timer(0.1, self.step)
+
+        self.get_logger().info('Starte Rotation um 45 Grad…')
+
+    # --- Callback: Odom lesen ---
+    def odom_cb(self, msg: Odometry):
+        self.current_yaw = yaw_from_quat(msg.pose.pose.orientation)
+        if self.start_yaw is None:
+            self.start_yaw = self.current_yaw
+            self.get_logger().info(f'Start-Yaw = {math.degrees(self.start_yaw):.1f}°')
+
+    # --- Haupt-Loop ---
+    def step(self):
+        if self.current_yaw is None or self.start_yaw is None:
+            return
+
+        target_angle_rad = math.radians(
+            float(self.get_parameter('target_angle_deg').value))
+        speed = float(self.get_parameter('angular_speed').value)
+
+        # Winkelabweichung berechnen
+        delta = self.angle_diff(self.current_yaw, self.start_yaw)
+        self.get_logger().debug(f"Aktueller Winkel: {math.degrees(delta):.1f}°")
+
+        if abs(delta) < target_angle_rad:
+            cmd = Twist()
+            cmd.angular.z = speed    # positiver Wert = gegen Uhrzeigersinn (links)
+            self.cmd_pub.publish(cmd)
+        else:
+            self.cmd_pub.publish(Twist())
+            self.get_logger().info('Zielwinkel erreicht. Stoppe.')
+            rclpy.shutdown()
+
+    @staticmethod
+    def angle_diff(a, b):
+        """liefert a - b, normalisiert auf [-pi, pi]"""
+        d = a - b
+        while d > math.pi:
+            d -= 2 * math.pi
+        while d < -math.pi:
+            d += 2 * math.pi
+        return d
+
+
+def main():
+    rclpy.init()
+    node = RotateByOdom()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        if rclpy.ok():
+            node.cmd_pub.publish(Twist())  # Safety stop
+            node.get_logger().info('Node beendet.')
+            rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

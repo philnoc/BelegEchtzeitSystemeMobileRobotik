@@ -1,0 +1,7 @@
+[console_scripts]
+Spinn45 = phil_turtlebot.spinn:main
+callAction = phil_turtlebot.callAction:main
+musicDetect = phil_turtlebot.movedisco:main
+musictest = phil_turtlebot.playmusic:main
+oneIMG = phil_turtlebot.show_one_img:main
+

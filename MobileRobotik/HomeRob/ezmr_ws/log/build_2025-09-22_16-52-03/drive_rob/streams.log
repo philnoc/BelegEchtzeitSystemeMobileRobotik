@@ -1,0 +1,26 @@
+[0.797s] Invoking command in '/home/philnoc/ezmr_ws/src/drive_rob': PYTHONPATH=/home/philnoc/ezmr_ws/build/drive_rob/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive_rob build --build-base /home/philnoc/ezmr_ws/build/drive_rob/build install --record /home/philnoc/ezmr_ws/build/drive_rob/install.log --single-version-externally-managed install_data
+[1.092s] running egg_info
+[1.093s] writing ../../build/drive_rob/drive_rob.egg-info/PKG-INFO
+[1.094s] writing dependency_links to ../../build/drive_rob/drive_rob.egg-info/dependency_links.txt
+[1.095s] writing entry points to ../../build/drive_rob/drive_rob.egg-info/entry_points.txt
+[1.095s] writing requirements to ../../build/drive_rob/drive_rob.egg-info/requires.txt
+[1.095s] writing top-level names to ../../build/drive_rob/drive_rob.egg-info/top_level.txt
+[1.097s] reading manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+[1.098s] adding license file 'LICENSE'
+[1.099s] writing manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+[1.099s] running build
+[1.100s] running build_py
+[1.100s] copying drive_rob/robot_square.py -> /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob
+[1.100s] running install
+[1.101s] running install_lib
+[1.102s] copying /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob/robot_square.py -> /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob
+[1.102s] byte-compiling /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/robot_square.py to robot_square.cpython-310.pyc
+[1.103s] running install_data
+[1.104s] running install_egg_info
+[1.107s] removing '/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob-0.0.0-py3.10.egg-info' (and everything under it)
+[1.108s] Copying ../../build/drive_rob/drive_rob.egg-info to /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob-0.0.0-py3.10.egg-info
+[1.109s] running install_scripts
+[1.138s] Installing turtle_heart script to /home/philnoc/ezmr_ws/install/drive_rob/lib/drive_rob
+[1.139s] Installing turtle_square script to /home/philnoc/ezmr_ws/install/drive_rob/lib/drive_rob
+[1.139s] writing list of installed files to '/home/philnoc/ezmr_ws/build/drive_rob/install.log'
+[1.180s] Invoked command in '/home/philnoc/ezmr_ws/src/drive_rob' returned '0': PYTHONPATH=/home/philnoc/ezmr_ws/build/drive_rob/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive_rob build --build-base /home/philnoc/ezmr_ws/build/drive_rob/build install --record /home/philnoc/ezmr_ws/build/drive_rob/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+HelloPhil = phil_pkg.HelloPhil:main
+

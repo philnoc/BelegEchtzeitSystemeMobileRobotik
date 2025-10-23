@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_heart = drive_rob.robot_heart:main
+turtle_square = drive_rob.robot_square1:main
+

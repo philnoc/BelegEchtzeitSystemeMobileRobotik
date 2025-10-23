@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/drive_rob/drive_rob.egg-info/PKG-INFO
+writing dependency_links to ../../build/drive_rob/drive_rob.egg-info/dependency_links.txt
+writing entry points to ../../build/drive_rob/drive_rob.egg-info/entry_points.txt
+writing requirements to ../../build/drive_rob/drive_rob.egg-info/requires.txt
+writing top-level names to ../../build/drive_rob/drive_rob.egg-info/top_level.txt
+reading manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/drive_rob/drive_rob.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drive_rob/robot_square1.py -> /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob
+copying drive_rob/robot_square.py -> /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob
+running install
+running install_lib
+copying /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob/robot_square1.py -> /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob
+copying /home/philnoc/ezmr_ws/build/drive_rob/build/lib/drive_rob/robot_square.py -> /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob
+byte-compiling /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/robot_square1.py to robot_square1.cpython-310.pyc
+  File "/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/robot_square1.py", line 18
+    			if self.loopcount=4:
+    			   ^^^^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+
+byte-compiling /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/robot_square.py to robot_square.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/drive_rob/drive_rob.egg-info to /home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_heart script to /home/philnoc/ezmr_ws/install/drive_rob/lib/drive_rob
+Installing turtle_square script to /home/philnoc/ezmr_ws/install/drive_rob/lib/drive_rob
+writing list of installed files to '/home/philnoc/ezmr_ws/build/drive_rob/install.log'

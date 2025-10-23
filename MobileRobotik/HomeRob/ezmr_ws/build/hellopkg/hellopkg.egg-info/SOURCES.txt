@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/hellopkg/hellopkg.egg-info/PKG-INFO
+../../build/hellopkg/hellopkg.egg-info/SOURCES.txt
+../../build/hellopkg/hellopkg.egg-info/dependency_links.txt
+../../build/hellopkg/hellopkg.egg-info/entry_points.txt
+../../build/hellopkg/hellopkg.egg-info/requires.txt
+../../build/hellopkg/hellopkg.egg-info/top_level.txt
+../../build/hellopkg/hellopkg.egg-info/zip-safe
+hellopkg/__init__.py
+resource/hellopkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

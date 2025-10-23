@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/sensors_add/sensors_add.egg-info
+writing ../../build/sensors_add/sensors_add.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensors_add/sensors_add.egg-info/dependency_links.txt
+writing entry points to ../../build/sensors_add/sensors_add.egg-info/entry_points.txt
+writing requirements to ../../build/sensors_add/sensors_add.egg-info/requires.txt
+writing top-level names to ../../build/sensors_add/sensors_add.egg-info/top_level.txt
+writing manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/philnoc/ezmr_ws/build/sensors_add/build
+creating /home/philnoc/ezmr_ws/build/sensors_add/build/lib
+creating /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+copying sensors_add/__init__.py -> /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+copying sensors_add/ultra_disp.py -> /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+running install
+running install_lib
+creating /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+copying /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add/__init__.py -> /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+copying /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add/ultra_disp.py -> /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+byte-compiling /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add/ultra_disp.py to ultra_disp.cpython-310.pyc
+running install_data
+creating /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index
+creating /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index/resource_index
+creating /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index/resource_index/packages
+copying resource/sensors_add -> /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index/resource_index/packages
+copying package.xml -> /home/philnoc/ezmr_ws/install/sensors_add/share/sensors_add
+running install_egg_info
+Copying ../../build/sensors_add/sensors_add.egg-info to /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ultra_display script to /home/philnoc/ezmr_ws/install/sensors_add/lib/sensors_add
+writing list of installed files to '/home/philnoc/ezmr_ws/build/sensors_add/install.log'

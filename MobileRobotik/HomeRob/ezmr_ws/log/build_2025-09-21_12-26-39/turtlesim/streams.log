@@ -1,0 +1,350 @@
+[0.023s] Invoking command in '/home/philnoc/ezmr_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/philnoc/ezmr_ws/build/turtlesim -- -j4 -l4
+[0.097s] [  1%] Built target turtlesim__cpp
+[0.102s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.113s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.136s] [ 25%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.136s] [ 31%] Built target turtlesim__rosidl_typesupport_cpp
+[0.153s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.153s] [ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.172s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.172s] [ 71%] Built target turtlesim__rosidl_typesupport_c
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.209s] [ 73%] Built target turtle_teleop_key
+[0.213s] [ 75%] Built target draw_square
+[0.220s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.248s] [ 76%] Built target turtlesim
+[0.250s] [ 78%] Built target mimic
+[0.276s] [ 79%] Built target turtlesim__py
+[0.311s] [ 88%] Built target turtlesim__rosidl_generator_py
+[0.343s] [ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.343s] [ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.373s] [ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.478s] running egg_info
+[0.479s] writing turtlesim.egg-info/PKG-INFO
+[0.480s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.480s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.483s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.485s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.530s] [ 94%] Built target ament_cmake_python_build_turtlesim_egg
+[13.456s] [ 95%] [32m[1mLinking CXX executable turtlesim_node[0m
+[18.127s] [100%] Built target turtlesim_node
+[18.148s] Invoked command in '/home/philnoc/ezmr_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/philnoc/ezmr_ws/build/turtlesim -- -j4 -l4
+[18.161s] Invoking command in '/home/philnoc/ezmr_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/philnoc/ezmr_ws/build/turtlesim
+[18.171s] -- Install configuration: ""
+[18.171s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[18.172s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim
+[18.172s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[18.172s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[18.173s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[18.173s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[18.173s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[18.173s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[18.174s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[18.174s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[18.175s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[18.175s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[18.175s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[18.175s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[18.175s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[18.176s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[18.176s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[18.176s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[18.176s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[18.177s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[18.177s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[18.177s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[18.177s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[18.177s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[18.177s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[18.178s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[18.178s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[18.178s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[18.178s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[18.179s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[18.179s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[18.179s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[18.179s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[18.179s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[18.179s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[18.180s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[18.180s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[18.180s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[18.180s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[18.180s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[18.180s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/library_path.sh
+[18.181s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[18.182s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[18.182s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim
+[18.182s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[18.182s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[18.183s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[18.184s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[18.184s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[18.184s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[18.184s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[18.185s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[18.186s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[18.187s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[18.187s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[18.187s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[18.187s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[18.187s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[18.187s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[18.188s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[18.189s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim
+[18.190s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[18.191s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[18.192s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[18.193s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[18.194s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[18.195s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[18.196s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[18.196s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[18.196s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[18.196s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[18.196s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[18.196s] -- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[18.196s] -- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[18.196s] -- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[18.196s] -- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[18.196s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[18.197s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[18.198s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[18.198s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[18.198s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[18.198s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[18.198s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.198s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.200s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[18.201s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[18.202s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[18.227s] Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[18.228s] Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[18.228s] Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[18.228s] Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[18.234s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.235s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.236s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.236s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[18.236s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[18.236s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Color.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Pose.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[18.237s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Color.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Pose.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill.srv
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[18.238s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[18.239s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[18.239s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[18.239s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[18.239s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[18.239s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[18.239s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[18.239s] -- Installing: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[18.250s] -- Set runtime path of "/home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[18.251s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[18.251s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/draw_square
+[18.252s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/mimic
+[18.252s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images
+[18.252s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/eloquent.png
+[18.252s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/bouncy.png
+[18.253s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/foxy.png
+[18.253s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/dashing.png
+[18.254s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/crystal.png
+[18.254s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/ardent.png
+[18.255s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/rolling.png
+[18.255s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/galactic.png
+[18.255s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/humble.png
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/launch
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[18.256s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/path.sh
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.bash
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.sh
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[18.257s] -- Installing: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/package.dsv
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.257s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.258s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.259s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[18.261s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[18.262s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.262s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.262s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[18.262s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[18.263s] -- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/package.xml
+[18.263s] Invoked command in '/home/philnoc/ezmr_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/philnoc/ezmr_ws/build/turtlesim

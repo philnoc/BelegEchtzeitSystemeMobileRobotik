@@ -1,0 +1,25 @@
+[0.734s] Invoking command in '/home/philnoc/ezmr_ws/src/sensors_add': PYTHONPATH=/home/philnoc/ezmr_ws/build/sensors_add/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors_add build --build-base /home/philnoc/ezmr_ws/build/sensors_add/build install --record /home/philnoc/ezmr_ws/build/sensors_add/install.log --single-version-externally-managed install_data
+[1.033s] running egg_info
+[1.034s] writing ../../build/sensors_add/sensors_add.egg-info/PKG-INFO
+[1.034s] writing dependency_links to ../../build/sensors_add/sensors_add.egg-info/dependency_links.txt
+[1.034s] writing entry points to ../../build/sensors_add/sensors_add.egg-info/entry_points.txt
+[1.034s] writing requirements to ../../build/sensors_add/sensors_add.egg-info/requires.txt
+[1.034s] writing top-level names to ../../build/sensors_add/sensors_add.egg-info/top_level.txt
+[1.039s] reading manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+[1.039s] adding license file 'LICENSE'
+[1.040s] writing manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+[1.041s] running build
+[1.041s] running build_py
+[1.041s] copying sensors_add/ultra_disp.py -> /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+[1.041s] running install
+[1.041s] running install_lib
+[1.042s] copying /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add/ultra_disp.py -> /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+[1.043s] byte-compiling /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add/ultra_disp.py to ultra_disp.cpython-310.pyc
+[1.044s] running install_data
+[1.044s] running install_egg_info
+[1.046s] removing '/home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add-0.0.0-py3.10.egg-info' (and everything under it)
+[1.046s] Copying ../../build/sensors_add/sensors_add.egg-info to /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add-0.0.0-py3.10.egg-info
+[1.048s] running install_scripts
+[1.079s] Installing ultra_display script to /home/philnoc/ezmr_ws/install/sensors_add/lib/sensors_add
+[1.080s] writing list of installed files to '/home/philnoc/ezmr_ws/build/sensors_add/install.log'
+[1.127s] Invoked command in '/home/philnoc/ezmr_ws/src/sensors_add' returned '0': PYTHONPATH=/home/philnoc/ezmr_ws/build/sensors_add/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors_add build --build-base /home/philnoc/ezmr_ws/build/sensors_add/build install --record /home/philnoc/ezmr_ws/build/sensors_add/install.log --single-version-externally-managed install_data

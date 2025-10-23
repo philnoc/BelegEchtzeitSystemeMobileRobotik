@@ -1,0 +1,34 @@
+[2.297s] Invoking command in '/home/philnoc/ezmr_ws/src/hellopkg': PYTHONPATH=/home/philnoc/ezmr_ws/build/hellopkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/hellopkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hellopkg build --build-base /home/philnoc/ezmr_ws/build/hellopkg/build install --record /home/philnoc/ezmr_ws/build/hellopkg/install.log --single-version-externally-managed install_data
+[2.660s] running egg_info
+[2.661s] creating ../../build/hellopkg/hellopkg.egg-info
+[2.661s] writing ../../build/hellopkg/hellopkg.egg-info/PKG-INFO
+[2.662s] writing dependency_links to ../../build/hellopkg/hellopkg.egg-info/dependency_links.txt
+[2.663s] writing entry points to ../../build/hellopkg/hellopkg.egg-info/entry_points.txt
+[2.666s] writing requirements to ../../build/hellopkg/hellopkg.egg-info/requires.txt
+[2.666s] writing top-level names to ../../build/hellopkg/hellopkg.egg-info/top_level.txt
+[2.666s] writing manifest file '../../build/hellopkg/hellopkg.egg-info/SOURCES.txt'
+[2.667s] reading manifest file '../../build/hellopkg/hellopkg.egg-info/SOURCES.txt'
+[2.667s] adding license file 'LICENSE'
+[2.671s] writing manifest file '../../build/hellopkg/hellopkg.egg-info/SOURCES.txt'
+[2.672s] running build
+[2.672s] running build_py
+[2.672s] creating /home/philnoc/ezmr_ws/build/hellopkg/build
+[2.672s] creating /home/philnoc/ezmr_ws/build/hellopkg/build/lib
+[2.673s] creating /home/philnoc/ezmr_ws/build/hellopkg/build/lib/hellopkg
+[2.674s] copying hellopkg/__init__.py -> /home/philnoc/ezmr_ws/build/hellopkg/build/lib/hellopkg
+[2.675s] running install
+[2.675s] running install_lib
+[2.676s] creating /home/philnoc/ezmr_ws/install/hellopkg/lib/python3.10/site-packages/hellopkg
+[2.677s] copying /home/philnoc/ezmr_ws/build/hellopkg/build/lib/hellopkg/__init__.py -> /home/philnoc/ezmr_ws/install/hellopkg/lib/python3.10/site-packages/hellopkg
+[2.679s] byte-compiling /home/philnoc/ezmr_ws/install/hellopkg/lib/python3.10/site-packages/hellopkg/__init__.py to __init__.cpython-310.pyc
+[2.679s] running install_data
+[2.679s] creating /home/philnoc/ezmr_ws/install/hellopkg/share/ament_index
+[2.680s] creating /home/philnoc/ezmr_ws/install/hellopkg/share/ament_index/resource_index
+[2.680s] creating /home/philnoc/ezmr_ws/install/hellopkg/share/ament_index/resource_index/packages
+[2.680s] copying resource/hellopkg -> /home/philnoc/ezmr_ws/install/hellopkg/share/ament_index/resource_index/packages
+[2.680s] copying package.xml -> /home/philnoc/ezmr_ws/install/hellopkg/share/hellopkg
+[2.682s] running install_egg_info
+[2.685s] Copying ../../build/hellopkg/hellopkg.egg-info to /home/philnoc/ezmr_ws/install/hellopkg/lib/python3.10/site-packages/hellopkg-0.0.0-py3.10.egg-info
+[2.686s] running install_scripts
+[2.724s] writing list of installed files to '/home/philnoc/ezmr_ws/build/hellopkg/install.log'
+[3.206s] Invoked command in '/home/philnoc/ezmr_ws/src/hellopkg' returned '0': PYTHONPATH=/home/philnoc/ezmr_ws/build/hellopkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/hellopkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hellopkg build --build-base /home/philnoc/ezmr_ws/build/hellopkg/build install --record /home/philnoc/ezmr_ws/build/hellopkg/install.log --single-version-externally-managed install_data

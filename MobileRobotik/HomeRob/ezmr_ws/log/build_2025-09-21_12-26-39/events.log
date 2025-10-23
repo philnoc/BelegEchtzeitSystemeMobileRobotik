@@ -1,0 +1,501 @@
+[0.000000] (-) TimerEvent: {}
+[0.000508] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000571] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.017534] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.020723] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.020844] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/philnoc/ezmr_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/philnoc/ezmr_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'philnoc'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/philnoc'), ('OLDPWD', '/home/philnoc/ezmr_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'philnoc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'philnoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1812,unix/Ubuntu22:/tmp/.ICE-unix/1812'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08c3215b_23c9_42cc_8252_0c1d577415eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W9LSC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/philnoc/ezmr_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097150] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.099472] (-) TimerEvent: {}
+[0.102344] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.113895] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.136367] (turtlesim) StdoutLine: {'line': b'[ 25%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.136643] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.153607] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.153869] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.172454] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.172791] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.182343] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.199759] (-) TimerEvent: {}
+[0.209404] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtle_teleop_key\n'}
+[0.213109] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[0.219982] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.248101] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim\n'}
+[0.250851] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target mimic\n'}
+[0.276552] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[0.300360] (-) TimerEvent: {}
+[0.311003] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[0.343396] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.343617] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.373320] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.401244] (-) TimerEvent: {}
+[0.478403] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.479499] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.479929] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.480509] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.483456] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.484925] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.509405] (-) TimerEvent: {}
+[0.530689] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.704399] (-) TimerEvent: {}
+[0.821719] (-) TimerEvent: {}
+[0.926916] (-) TimerEvent: {}
+[1.035085] (-) TimerEvent: {}
+[1.137940] (-) TimerEvent: {}
+[1.239017] (-) TimerEvent: {}
+[1.340247] (-) TimerEvent: {}
+[1.442410] (-) TimerEvent: {}
+[1.543372] (-) TimerEvent: {}
+[1.704977] (-) TimerEvent: {}
+[1.806402] (-) TimerEvent: {}
+[1.950400] (-) TimerEvent: {}
+[2.059693] (-) TimerEvent: {}
+[2.265609] (-) TimerEvent: {}
+[2.369347] (-) TimerEvent: {}
+[2.490589] (-) TimerEvent: {}
+[2.592969] (-) TimerEvent: {}
+[2.706573] (-) TimerEvent: {}
+[2.824830] (-) TimerEvent: {}
+[2.931840] (-) TimerEvent: {}
+[3.060876] (-) TimerEvent: {}
+[3.177452] (-) TimerEvent: {}
+[3.310383] (-) TimerEvent: {}
+[3.411323] (-) TimerEvent: {}
+[3.515225] (-) TimerEvent: {}
+[3.617348] (-) TimerEvent: {}
+[3.721742] (-) TimerEvent: {}
+[3.842292] (-) TimerEvent: {}
+[3.953443] (-) TimerEvent: {}
+[4.120496] (-) TimerEvent: {}
+[4.240509] (-) TimerEvent: {}
+[4.372281] (-) TimerEvent: {}
+[4.486851] (-) TimerEvent: {}
+[4.648757] (-) TimerEvent: {}
+[4.797376] (-) TimerEvent: {}
+[4.902409] (-) TimerEvent: {}
+[5.003859] (-) TimerEvent: {}
+[5.168228] (-) TimerEvent: {}
+[5.283810] (-) TimerEvent: {}
+[5.465058] (-) TimerEvent: {}
+[5.585655] (-) TimerEvent: {}
+[5.782655] (-) TimerEvent: {}
+[5.978612] (-) TimerEvent: {}
+[6.147524] (-) TimerEvent: {}
+[6.272610] (-) TimerEvent: {}
+[6.421507] (-) TimerEvent: {}
+[6.540399] (-) TimerEvent: {}
+[6.671092] (-) TimerEvent: {}
+[6.771970] (-) TimerEvent: {}
+[6.880938] (-) TimerEvent: {}
+[7.000836] (-) TimerEvent: {}
+[7.105456] (-) TimerEvent: {}
+[7.308926] (-) TimerEvent: {}
+[7.415464] (-) TimerEvent: {}
+[7.563413] (-) TimerEvent: {}
+[7.664184] (-) TimerEvent: {}
+[7.864853] (-) TimerEvent: {}
+[7.967108] (-) TimerEvent: {}
+[8.079107] (-) TimerEvent: {}
+[8.207209] (-) TimerEvent: {}
+[8.398833] (-) TimerEvent: {}
+[8.499716] (-) TimerEvent: {}
+[8.605660] (-) TimerEvent: {}
+[8.706715] (-) TimerEvent: {}
+[8.824656] (-) TimerEvent: {}
+[8.938107] (-) TimerEvent: {}
+[9.112637] (-) TimerEvent: {}
+[9.224442] (-) TimerEvent: {}
+[9.338302] (-) TimerEvent: {}
+[9.439058] (-) TimerEvent: {}
+[9.551780] (-) TimerEvent: {}
+[9.657607] (-) TimerEvent: {}
+[9.758959] (-) TimerEvent: {}
+[9.875885] (-) TimerEvent: {}
+[10.037448] (-) TimerEvent: {}
+[10.760266] (-) TimerEvent: {}
+[10.865471] (-) TimerEvent: {}
+[10.979664] (-) TimerEvent: {}
+[11.080694] (-) TimerEvent: {}
+[11.198012] (-) TimerEvent: {}
+[11.299345] (-) TimerEvent: {}
+[11.400708] (-) TimerEvent: {}
+[11.629480] (-) TimerEvent: {}
+[11.737105] (-) TimerEvent: {}
+[11.849066] (-) TimerEvent: {}
+[11.956637] (-) TimerEvent: {}
+[12.143028] (-) TimerEvent: {}
+[12.244479] (-) TimerEvent: {}
+[12.350993] (-) TimerEvent: {}
+[12.452409] (-) TimerEvent: {}
+[12.552956] (-) TimerEvent: {}
+[12.718931] (-) TimerEvent: {}
+[12.829451] (-) TimerEvent: {}
+[12.959538] (-) TimerEvent: {}
+[13.128815] (-) TimerEvent: {}
+[13.231466] (-) TimerEvent: {}
+[13.442947] (-) TimerEvent: {}
+[13.456906] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[13.543212] (-) TimerEvent: {}
+[13.644933] (-) TimerEvent: {}
+[13.753471] (-) TimerEvent: {}
+[13.856069] (-) TimerEvent: {}
+[13.995754] (-) TimerEvent: {}
+[14.124482] (-) TimerEvent: {}
+[14.234387] (-) TimerEvent: {}
+[14.337650] (-) TimerEvent: {}
+[14.452751] (-) TimerEvent: {}
+[14.562734] (-) TimerEvent: {}
+[14.690077] (-) TimerEvent: {}
+[14.792858] (-) TimerEvent: {}
+[14.913680] (-) TimerEvent: {}
+[15.016638] (-) TimerEvent: {}
+[15.147660] (-) TimerEvent: {}
+[15.253100] (-) TimerEvent: {}
+[15.399452] (-) TimerEvent: {}
+[15.515560] (-) TimerEvent: {}
+[15.619361] (-) TimerEvent: {}
+[15.750356] (-) TimerEvent: {}
+[15.877517] (-) TimerEvent: {}
+[15.981511] (-) TimerEvent: {}
+[16.090571] (-) TimerEvent: {}
+[16.195376] (-) TimerEvent: {}
+[16.297502] (-) TimerEvent: {}
+[16.458527] (-) TimerEvent: {}
+[16.611163] (-) TimerEvent: {}
+[16.716813] (-) TimerEvent: {}
+[16.850548] (-) TimerEvent: {}
+[16.952355] (-) TimerEvent: {}
+[17.057082] (-) TimerEvent: {}
+[17.169842] (-) TimerEvent: {}
+[17.311110] (-) TimerEvent: {}
+[17.450858] (-) TimerEvent: {}
+[17.557813] (-) TimerEvent: {}
+[17.693537] (-) TimerEvent: {}
+[17.826606] (-) TimerEvent: {}
+[17.943185] (-) TimerEvent: {}
+[18.058410] (-) TimerEvent: {}
+[18.127658] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[18.148220] (turtlesim) CommandEnded: {'returncode': 0}
+[18.149212] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[18.159255] (-) TimerEvent: {}
+[18.161676] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/philnoc/ezmr_ws/build/turtlesim'], 'cwd': '/home/philnoc/ezmr_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'philnoc'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/philnoc'), ('OLDPWD', '/home/philnoc/ezmr_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'philnoc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'philnoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1812,unix/Ubuntu22:/tmp/.ICE-unix/1812'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08c3215b_23c9_42cc_8252_0c1d577415eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W9LSC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/philnoc/ezmr_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.171531] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.171853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[18.171981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.172700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.172881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.173069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[18.173425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[18.173572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[18.173771] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[18.174065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[18.174194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.174774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.175183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[18.175688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[18.175820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.175957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[18.176166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[18.176263] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[18.176365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[18.176531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[18.176826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[18.177211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[18.177428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[18.177567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.177680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.177932] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[18.178112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[18.178216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[18.178385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[18.178491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[18.178869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[18.179336] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[18.179669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[18.179790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[18.179870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[18.179952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[18.180274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[18.180414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[18.180539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[18.180759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[18.180854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[18.180911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[18.180959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[18.181106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[18.181158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[18.181316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[18.181410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[18.181496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[18.181695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[18.181801] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[18.181909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[18.182010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[18.182096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[18.182294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.182424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.182939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.183025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[18.183110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.183189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.183359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[18.183451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[18.183558] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.183793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.183900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.184008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[18.184414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[18.184753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[18.184938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[18.185052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[18.185242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[18.185474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.185562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.185710] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.185817] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[18.185924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[18.186024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[18.186185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[18.186373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[18.186491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.186594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.186758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[18.186869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[18.186973] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[18.187089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[18.187340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[18.187476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[18.187580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[18.187739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[18.187939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[18.188034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[18.188114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.188194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.188328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[18.188407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[18.188487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.188565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[18.188642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[18.188761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[18.188871] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[18.188948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[18.189087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[18.189177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[18.189294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[18.189378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[18.189451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[18.189571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[18.189942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[18.190041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[18.190104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[18.190164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[18.190223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[18.190283] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[18.190456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[18.190521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[18.190596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[18.190681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[18.190770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[18.190870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[18.190952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.191015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.191074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.191133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[18.191192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.191252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.191311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.191451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.191541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.191616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[18.191676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.191736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.191795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.191857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.191922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[18.191982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.192053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.192113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.192172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.192231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.192290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.192352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.192518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.192580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[18.192641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[18.192701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.192761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.192820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[18.192882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[18.192942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[18.193002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[18.193072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.193138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.193197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.193256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[18.193316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[18.193376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[18.193502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[18.193593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[18.193656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[18.193716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[18.193775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[18.193834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[18.193893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[18.193955] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[18.194015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[18.194074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.194133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.194192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.194251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.194330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[18.194390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.194546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.194620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.194681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[18.194742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.194819] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[18.194879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.194941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.195009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[18.195199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.195287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.195366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[18.195505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[18.195677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[18.195768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.195850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.195926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[18.196005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.196087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[18.196174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[18.196260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[18.196342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[18.196426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[18.196511] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[18.196707] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[18.196799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[18.196883] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[18.196967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[18.197049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.197154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[18.197238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[18.197314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[18.197397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[18.197500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[18.197652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[18.197744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[18.197834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[18.197920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[18.198003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[18.198087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[18.198170] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[18.198256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.198344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[18.198446] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.198534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.198984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.201031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[18.201379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[18.201457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[18.201518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[18.201580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[18.201640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[18.201762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[18.201827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[18.201887] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[18.201947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[18.202006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[18.202065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[18.227642] (turtlesim) StdoutLine: {'line': b"Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[18.228105] (turtlesim) StdoutLine: {'line': b"Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[18.228301] (turtlesim) StdoutLine: {'line': b"Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[18.228498] (turtlesim) StdoutLine: {'line': b"Listing '/home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[18.234675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.235310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.235805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.236172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[18.236632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[18.236829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[18.237118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[18.237227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[18.237417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[18.237523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[18.237629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[18.237728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[18.237816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[18.238064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[18.238149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[18.238298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[18.238465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[18.238541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[18.238613] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[18.238685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[18.238757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[18.238830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[18.238902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[18.239012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[18.239085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[18.239158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[18.239231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[18.239303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[18.239375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[18.239446] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[18.239517] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[18.250686] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[18.251267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[18.251665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[18.252115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[18.252411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images\n'}
+[18.252638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[18.252788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[18.252994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[18.253469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[18.253949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[18.254178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[18.254858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[18.255508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[18.255805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[18.256068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/launch\n'}
+[18.256193] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[18.256419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[18.256560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[18.256660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[18.256760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[18.256856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[18.257086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[18.257165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[18.257227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[18.257287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[18.257347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[18.257408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[18.257468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[18.257528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[18.257589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.257650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.257709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.257769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[18.257829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.257893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.257954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.258013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.258219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[18.258305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.258366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.258429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.258489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[18.258548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.258607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[18.258693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.258768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[18.258828] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.258895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.259242] (-) TimerEvent: {}
+[18.259638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.259955] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.261315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.262465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.262761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[18.262906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[18.263007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/philnoc/ezmr_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[18.263134] (turtlesim) CommandEnded: {'returncode': 0}
+[18.291831] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[18.294207] (-) EventReactorShutdown: {}

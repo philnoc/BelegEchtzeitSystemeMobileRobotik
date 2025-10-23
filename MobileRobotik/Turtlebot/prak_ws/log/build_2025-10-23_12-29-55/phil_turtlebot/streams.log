@@ -1,0 +1,34 @@
+[1.617s] Invoking command in '/home/philnoc/prak_ws/src/phil_turtlebot': PYTHONPATH=/home/philnoc/prak_ws/build/phil_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/phil_turtlebot build --build-base /home/philnoc/prak_ws/build/phil_turtlebot/build install --record /home/philnoc/prak_ws/build/phil_turtlebot/install.log --single-version-externally-managed install_data
+[2.060s] running egg_info
+[2.062s] writing ../../build/phil_turtlebot/phil_turtlebot.egg-info/PKG-INFO
+[2.062s] writing dependency_links to ../../build/phil_turtlebot/phil_turtlebot.egg-info/dependency_links.txt
+[2.063s] writing entry points to ../../build/phil_turtlebot/phil_turtlebot.egg-info/entry_points.txt
+[2.063s] writing requirements to ../../build/phil_turtlebot/phil_turtlebot.egg-info/requires.txt
+[2.064s] writing top-level names to ../../build/phil_turtlebot/phil_turtlebot.egg-info/top_level.txt
+[2.069s] reading manifest file '../../build/phil_turtlebot/phil_turtlebot.egg-info/SOURCES.txt'
+[2.069s] adding license file 'LICENSE'
+[2.074s] writing manifest file '../../build/phil_turtlebot/phil_turtlebot.egg-info/SOURCES.txt'
+[2.074s] running build
+[2.074s] running build_py
+[2.075s] copying phil_turtlebot/callAction.py -> /home/philnoc/prak_ws/build/phil_turtlebot/build/lib/phil_turtlebot
+[2.075s] running install
+[2.076s] running install_lib
+[2.078s] copying /home/philnoc/prak_ws/build/phil_turtlebot/build/lib/phil_turtlebot/callAction.py -> /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot
+[2.081s] byte-compiling /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/detect_obj.py to detect_obj.cpython-310.pyc
+[2.083s] byte-compiling /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/spinn.py to spinn.cpython-310.pyc
+[2.085s] byte-compiling /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/move_and_detect.py to move_and_detect.cpython-310.pyc
+[2.089s] byte-compiling /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/move_disco.py to move_disco.cpython-310.pyc
+[2.093s] byte-compiling /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/callAction.py to callAction.cpython-310.pyc
+[2.094s] byte-compiling /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot/playmusic.py to playmusic.cpython-310.pyc
+[2.096s] running install_data
+[2.096s] running install_egg_info
+[2.101s] removing '/home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.102s] Copying ../../build/phil_turtlebot/phil_turtlebot.egg-info to /home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages/phil_turtlebot-0.0.0-py3.10.egg-info
+[2.104s] running install_scripts
+[2.143s] Installing Spinn45 script to /home/philnoc/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[2.144s] Installing callAction script to /home/philnoc/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[2.144s] Installing musicDetect script to /home/philnoc/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[2.144s] Installing musictest script to /home/philnoc/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[2.144s] Installing oneIMG script to /home/philnoc/prak_ws/install/phil_turtlebot/lib/phil_turtlebot
+[2.145s] writing list of installed files to '/home/philnoc/prak_ws/build/phil_turtlebot/install.log'
+[2.220s] Invoked command in '/home/philnoc/prak_ws/src/phil_turtlebot' returned '0': PYTHONPATH=/home/philnoc/prak_ws/build/phil_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/prak_ws/install/phil_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/phil_turtlebot build --build-base /home/philnoc/prak_ws/build/phil_turtlebot/build install --record /home/philnoc/prak_ws/build/phil_turtlebot/install.log --single-version-externally-managed install_data

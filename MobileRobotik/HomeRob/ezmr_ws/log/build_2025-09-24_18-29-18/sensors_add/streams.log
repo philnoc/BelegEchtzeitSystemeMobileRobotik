@@ -1,0 +1,38 @@
+[0.837s] Invoking command in '/home/philnoc/ezmr_ws/src/sensors_add': PYTHONPATH=/home/philnoc/ezmr_ws/build/sensors_add/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors_add build --build-base /home/philnoc/ezmr_ws/build/sensors_add/build install --record /home/philnoc/ezmr_ws/build/sensors_add/install.log --single-version-externally-managed install_data
+[1.111s] running egg_info
+[1.112s] creating ../../build/sensors_add/sensors_add.egg-info
+[1.112s] writing ../../build/sensors_add/sensors_add.egg-info/PKG-INFO
+[1.113s] writing dependency_links to ../../build/sensors_add/sensors_add.egg-info/dependency_links.txt
+[1.113s] writing entry points to ../../build/sensors_add/sensors_add.egg-info/entry_points.txt
+[1.113s] writing requirements to ../../build/sensors_add/sensors_add.egg-info/requires.txt
+[1.113s] writing top-level names to ../../build/sensors_add/sensors_add.egg-info/top_level.txt
+[1.113s] writing manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+[1.116s] reading manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+[1.116s] adding license file 'LICENSE'
+[1.117s] writing manifest file '../../build/sensors_add/sensors_add.egg-info/SOURCES.txt'
+[1.117s] running build
+[1.117s] running build_py
+[1.117s] creating /home/philnoc/ezmr_ws/build/sensors_add/build
+[1.117s] creating /home/philnoc/ezmr_ws/build/sensors_add/build/lib
+[1.118s] creating /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+[1.118s] copying sensors_add/__init__.py -> /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+[1.118s] copying sensors_add/ultra_disp.py -> /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add
+[1.118s] running install
+[1.118s] running install_lib
+[1.119s] creating /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+[1.119s] copying /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add/__init__.py -> /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+[1.119s] copying /home/philnoc/ezmr_ws/build/sensors_add/build/lib/sensors_add/ultra_disp.py -> /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add
+[1.120s] byte-compiling /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add/__init__.py to __init__.cpython-310.pyc
+[1.120s] byte-compiling /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add/ultra_disp.py to ultra_disp.cpython-310.pyc
+[1.121s] running install_data
+[1.121s] creating /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index
+[1.121s] creating /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index/resource_index
+[1.121s] creating /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index/resource_index/packages
+[1.121s] copying resource/sensors_add -> /home/philnoc/ezmr_ws/install/sensors_add/share/ament_index/resource_index/packages
+[1.121s] copying package.xml -> /home/philnoc/ezmr_ws/install/sensors_add/share/sensors_add
+[1.121s] running install_egg_info
+[1.124s] Copying ../../build/sensors_add/sensors_add.egg-info to /home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages/sensors_add-0.0.0-py3.10.egg-info
+[1.124s] running install_scripts
+[1.150s] Installing ultra_display script to /home/philnoc/ezmr_ws/install/sensors_add/lib/sensors_add
+[1.151s] writing list of installed files to '/home/philnoc/ezmr_ws/build/sensors_add/install.log'
+[1.193s] Invoked command in '/home/philnoc/ezmr_ws/src/sensors_add' returned '0': PYTHONPATH=/home/philnoc/ezmr_ws/build/sensors_add/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/philnoc/ezmr_ws/install/sensors_add/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors_add build --build-base /home/philnoc/ezmr_ws/build/sensors_add/build install --record /home/philnoc/ezmr_ws/build/sensors_add/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/philnoc/ezmr_ws/install/drive_rob/lib/python3.10/site-packages/drive_rob/robot_heart.py", line 23
+    				msg.angular.z = 1.0 s
+    				                    ^
+SyntaxError: invalid syntax
+
